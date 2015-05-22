@@ -1,0 +1,219 @@
+@import "normalize.scss";
+@import "pygments.scss";
+
+$primary-color: #1F87FF;
+$secondary-color: #222222;
+
+*{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+
+.main-container{
+	position: relative;
+}
+
+.no-bullet{
+	list-style: none;
+}
+
+body{
+	color: #444;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+a:hover{
+	border-bottom: 2px $primary-color solid;
+	color: $primary-color
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+}
+
+p,li{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+
+
+.inline-list{
+	margin-left: -1em;
+	text-align: center;
+	li{
+		display: inline;
+		zoom: 1; /* Fix for IE7 */
+		*display: inline; /* Fix for IE7 */
+		padding-right: 30px;
+		a{
+			text-decoration: none;
+			color: #444;
+		}
+		a:hover{
+			border-bottom: 5px $primary-color solid;
+		}
+	}
+}
+
+
+
+.content-container{
+	width: 70%;
+	margin: auto;
+	margin-top: 3em;
+	img{
+		display: block;
+		max-width: 70%;
+		margin:auto;
+		margin-bottom: 2em;
+		box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+		-webkit-border-radius: 2px;
+		   -moz-border-radius: 2px;
+		    -ms-border-radius: 2px;
+		     -o-border-radius: 2px;
+		        border-radius: 2px;
+	}
+	.horizontal-divider{
+		margin-top: 2em;
+		border-top: 2px #cccccc solid;
+	}
+}
+
+.post-title{
+	margin-left: 2em;
+	margin-top: -20px;
+	margin-bottom: 2em;
+}
+
+
+#disqus_thread{
+	width: 80%;
+	margin: auto;
+	margin-top: 2em;
+}
+
+.post-contents{
+	.page-title{
+		font-weight: 400;
+		a{
+			border: none;
+			color: $primary-color;
+		}
+	}
+	.word_highlight{
+		padding: 2px;
+		background: #EEEEEE;
+		border: 1px #DDDDDD solid;
+		-webkit-border-radius: 2px;
+		   -moz-border-radius: 2px;
+		     -o-border-radius: 2px;
+		        border-radius: 2px;
+	}
+
+	a{
+		border-bottom: 1px #555 dotted;
+	}
+	a:hover{
+		border-bottom: 2px $primary-color solid;
+	}
+	.page-date{
+		float: right;
+		color: $primary-color;
+	}
+	.demo{
+		color: #fff;
+		padding: 10px;
+		background: $primary-color;
+	}
+
+	.panel.series{
+		padding: 0em 1em;
+		background: #eeeeee;
+		border: 1px #cccccc solid;
+		border-radius: 2px;
+	}
+
+}
+
+.post-excerpts{
+	h1,h2,h3,h4,h5,h6{
+		font-weight: 300;
+	}
+
+}
+
+.blog-icon{
+	display:block;
+	margin:auto;
+	width:180px;
+	height:180px;
+	margin-top: 40px;
+	border-radius:50%;
+	border:2px #222 solid;
+	h1{
+		font-family: 'icomoon';
+		color: #222;
+		font-size:4em;
+		font-weight:normal;
+		text-align:center;
+		padding-top: 10px;
+		display:block;
+	}
+}
+
+footer{
+	margin: auto;
+	margin-top: 5em;
+	width: 70%;
+	color: #aaaaaa;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.panel.author{
+	width: 80%;
+	border: 1px #CCCCCC solid;
+	border-radius: 2px;
+	margin-top: 2em;
+	padding: 1.5em;
+	.circular-img{
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border: 2px #dddddd solid;
+		float: right;
+		background: url("/images/sumit.jpg");
+	}
+	.author-img{
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	h2,h3{
+		font-weight: 300;
+		margin-top: -10px;
+	}
+	h2{
+		font-size: 1em;
+	}
+	h3{
+		font-size: 0.8em;
+	}
+	p{
+		margin-top: -7px;
+		font-size: 0.7em;
+		span{
+			font-weight: 400;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+name: "itunescn"
+description: "有质量的新应用"
+
+url: "http://www.itunescn.com"
+
+paginate: 40
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
+Exclude: ['./exclude']

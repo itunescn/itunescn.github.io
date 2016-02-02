@@ -5,7 +5,7 @@ url: "http://www.itunescn.com"
 
 paginate: 40
 
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 pygments: true
 Exclude: ['./exclude']

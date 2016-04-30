@@ -7,5 +7,4 @@ paginate: 40
 
 markdown: kramdown
 permalink: pretty
-pygments: true
 Exclude: ['./exclude']

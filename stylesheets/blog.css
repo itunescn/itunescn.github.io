@@ -646,7 +646,14 @@ p,li {
 	font-weight: 300
 }
 
-.blog-icon {
+.blog-icon img {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*.blog-icon {
 	display: block;
 	margin: auto;
 	width: 180px;
@@ -664,7 +671,7 @@ p,li {
 	text-align: center;
 	padding-top: 10px;
 	display: block
-}
+}*/
 
 footer {
 	margin: auto;

@@ -572,7 +572,6 @@ p,li {
 	vertical-align: middle;
 	display: inline-block;
 	float: left;
-	max-width: 20px;
 	box-shadow: none;
 	-webkit-border-radius: 22%;
 	-moz-border-radius: 22%;

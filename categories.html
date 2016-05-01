@@ -13,7 +13,7 @@ description: 有质量的新应用
 <h5 class = 'post-date'> {{ category[0] | join: "/" }}</h5>
 	{% for post in category[1] %}
 		<h3 class="post-title">
-			<img src="{{ post.results.first.artworkUrl60 }}" alt="">&nbsp;&nbsp;<a href={{ post.url }} class="">{{ post.title }}<span style="font-weight: 400;">: {{ post.description }}</span></a>
+			<a href={{ post.url }} class="">{{ post.title }}: {{ post.description }}</a>
 		</h3>
 	{% endfor %}
 

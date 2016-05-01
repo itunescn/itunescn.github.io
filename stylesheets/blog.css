@@ -580,7 +580,8 @@ p,li {
 .post-title {
 	margin-left: 2em;
 	margin-top: -20px;
-	margin-bottom: 2em
+	margin-bottom: 2em;
+	overflow: hidden
 }
 
 #disqus_thread {

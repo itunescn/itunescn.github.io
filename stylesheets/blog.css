@@ -515,21 +515,21 @@ p,li {
 	width: 20px;
 	height: 20px
 	box-shadow: none;
-	-webkit-border-radius: 20%;
-	-moz-border-radius: 20%;
-	-ms-border-radius: 20%;
-	-o-border-radius: 20%;
-	border-radius: 20%;
+	-webkit-border-radius: 22%;
+	-moz-border-radius: 22%;
+	-ms-border-radius: 22%;
+	-o-border-radius: 22%;
+	border-radius: 22%;
 	clear: left
 }
 
 .large-app-icon img {
 	max-width: 256px;
-	-webkit-border-radius: 20%;
-	-moz-border-radius: 20%;
-	-ms-border-radius: 20%;
-	-o-border-radius: 20%;
-	border-radius: 20%
+	-webkit-border-radius: 22%;
+	-moz-border-radius: 22%;
+	-ms-border-radius: 22%;
+	-o-border-radius: 22%;
+	border-radius: 22%
 }
 
 .large-screen-shot img {

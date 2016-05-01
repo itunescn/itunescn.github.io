@@ -13,7 +13,9 @@ description: 有质量的新应用
 <h5 class = 'post-date'> {{ category[0] | join: "/" }}</h5>
 	{% for post in category[1] %}
 		<h3 class="post-title">
-			<span><img src="{{ post.results.first.artworkUrl60 }}" width="20px" alt=""></span>&nbsp;&nbsp;<a href={{ post.url }} class="">{{ post.title }}: {{ post.description }}</a>
+			<div>
+				<a href={{ post.url }} class=""><img src="{{ post.results.first.artworkUrl60 }}" width="20px" alt="">&nbsp;&nbsp;{{ post.title }}<span style="font-weight: normal;">: {{ post.description }}</span></a>
+			</div>
 		</h3>
 	{% endfor %}
 

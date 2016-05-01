@@ -28,18 +28,18 @@ description: 有质量的新应用
     <ul class="pages">
     <li class="page">
       {% if paginator.page == 1 %}
-        <span class="current-page">1</span>&nbsp&nbsp
+        <span class="current-page">1</span>&nbsp;
       {% else %}
-        <a href="/">1</a>&nbsp&nbsp
+        <a href="/">1</a>&nbsp;
       {% endif %}
     </li>
 
     {% for count in (2..paginator.total_pages) %}
       <li class="page">
         {% if count == paginator.page %}
-        ・&nbsp&nbsp<span class="current-page">{{count}}</span>
+        ・&nbsp;<span class="current-page">{{count}}</span>
         {% else %}
-        ・&nbsp&nbsp<a href="/page{{ count }}">{{count}}</a>
+        ・&nbsp;<a href="/page{{ count }}">{{count}}</a>
         {% endif %}
       </li>
     {% endfor %}

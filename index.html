@@ -17,7 +17,7 @@ description: 有质量的新应用
 	{% for post in paginator.posts %}
 		<h5 class='post-date'>{{ post.date |  date: "%d %B %Y"}}</h5>
 	    <h3 class='post-title'>
-        <span><img src="{{ post.results.first.artworkUrl60 }}" alt="" width="30" height="30"></span><a href="{{ post.url }}" target="_blank">•&nbsp;{{ post.title }}&nbsp;•&nbsp;{{ post.description }}</a></span>
+        <span><img src="{{ post.results.first.artworkUrl60 }}" alt="" width="20" height="20"></span><a href="{{ post.url }}" target="_blank">•&nbsp;{{ post.title }}&nbsp;•&nbsp;{{ post.description }}</a></span>
 	    </h3>  
 	{% endfor %}
 </div>

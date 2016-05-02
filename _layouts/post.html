@@ -7,22 +7,26 @@
 <div class='post-contents'>
 	<h5 class='page-date'>{{ page.date |  date: "%d %B %Y"}}</h5>
 	<h2 class='page-title'><a href={{ page.results.first.trackViewUrl }}&at=10lIvG>{{ page.title }}</a></h2>
+	<br>
 	<div class='page-content'>{{ page.description }}</div>
 	<!-- <div class='page-content'>{{ content }}</div> -->
+	<br>
+	<br>
 	<div class="large-screen-shot">
-		<br>
 		{% for screenUrl in page.results.first.screenshotUrls %}
 		<a href={{ screenUrl }}><img src={{ screenUrl }} alt=""></a>
 		{% endfor %}
-		<br>
+	</div>
+	{% if page.results.first.ipadScreenshotUrls %}
+	<br>
+	<div class="ipad-large-screen-shot">
 		{% for screenUrl in page.results.first.ipadScreenshotUrls %}
 		<a href={{ screenUrl }}><img src={{ screenUrl }} alt=""></a>
 		{% endfor %}
 	</div>
+	{% endif %}
+	<br>
 	<div class='horizontal-divider'> </div>
-
-
-
 
 <!-- 	<div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -37,9 +41,6 @@ var disqus_shortname = 'itunescn'; // required: replace example with your forum 
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
-
-
-
 
 
 </div>

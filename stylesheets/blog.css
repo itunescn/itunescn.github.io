@@ -517,13 +517,18 @@ p,li {
 	border-radius: 23%
 }
 
-.large-screen-shot img {
+.large-screen-shot img,.ipad-large-screen-shot img {
 	display: inline;
 }
+
 
 @media screen and (min-width: 1280px) {
 	.large-screen-shot img {
 		max-width: 32%;
+	}
+
+	.ipad-large-screen-shot img {
+		max-width: 49%;
 	}
 }
 
@@ -531,10 +536,18 @@ p,li {
 	.large-screen-shot img {
 		max-width: 32%;
 	}
+
+	.ipad-large-screen-shot img {
+		max-width: 49%;
+	}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	.large-screen-shot img {
+		max-width: 49%;
+	}
+
+	.ipad-large-screen-shot img {
 		max-width: 49%;
 	}
 }
@@ -543,10 +556,18 @@ p,li {
 	.large-screen-shot img {
 		max-width: 49%;
 	}
+
+	.ipad-large-screen-shot img {
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 512px) {
 	.large-screen-shot img {
+		max-width: 100%;
+	}
+
+	.ipad-large-screen-shot img {
 		max-width: 100%;
 	}
 

@@ -565,22 +565,21 @@ p,li {
 .post-title {
 	margin-left: 2em;
 	margin-top: -20px;
-	margin-bottom: 2em
+	margin-bottom: 2em;
 }
 
 .post-title img {
-	vertical-align: middle;
+	margin-right: .5em;
 	display: inline-block;
 	float: left;
 	max-width: 20px;
-	box-shadow: none;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
 	-webkit-border-radius: 23%;
 	-moz-border-radius: 23%;
 	-ms-border-radius: 23%;
 	-o-border-radius: 23%;
 	border-radius: 23%;
 	clear: left;
-	overflow: hidden
 }
 
 #disqus_thread {

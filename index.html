@@ -6,16 +6,18 @@ description: 有质量的新应用
 
 ---
 <div class='cover-page'>
+  {% if paginator.page == 1 %}
     <div class='blog-icon'>
         <img src="/images/chaoqichaoluo-logo.png" alt="">
     </div>
+  {% endif %}
 </div>
 
 <div class='post-excerpts'>
 	{% for post in paginator.posts %}
 		<h5 class='post-date'>{{ post.date |  date: "%d %B %Y"}}</h5>
 	    <h3 class='post-title'>
-        <span><img src="{{ post.results.first.artworkUrl60 }}" alt=""></span>&nbsp;&nbsp;<a href="{{ post.url }}" target="_blank">{{ post.title }}: {{ post.description }}</a>
+        <span><img src="{{ post.results.first.artworkUrl60 }}" alt=""></span><a href="{{ post.url }}" target="_blank">•&nbsp;{{ post.title }}&nbsp;•&nbsp;{{ post.description }}</a></span>
 	    </h3>  
 	{% endfor %}
 </div>
@@ -37,9 +39,9 @@ description: 有质量的新应用
     {% for count in (2..paginator.total_pages) %}
       <li class="page">
         {% if count == paginator.page %}
-        ・&nbsp;&nbsp;<span class="current-page">{{count}}</span>
+        ・&nbsp;&nbsp;<span class="current-page">{{ count }}</span>
         {% else %}
-        ・&nbsp;&nbsp;<a href="/page{{ count }}">{{count}}</a>
+        ・&nbsp;&nbsp;<a href="/page{{ count }}">{{ count }}</a>
         {% endif %}
       </li>
     {% endfor %}

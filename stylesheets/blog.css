@@ -523,19 +523,19 @@ p,li {
 
 @media screen and (min-width: 1280px) {
 	.large-screen-shot img {
-		max-width: 19%;
+		max-width: 32%;
 	}
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 	.large-screen-shot img {
-		max-width: 24%;
+		max-width: 32%;
 	}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	.large-screen-shot img {
-		max-width: 32%;
+		max-width: 49%;
 	}
 }
 

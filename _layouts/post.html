@@ -11,12 +11,14 @@
 	<div class='page-content'>{{ page.description }}</div>
 	<!-- <div class='page-content'>{{ content }}</div> -->
 	<br>
+	{% if page.results.first.screenshotUrls %}
 	<br>
 	<div class="large-screen-shot">
 		{% for screenUrl in page.results.first.screenshotUrls %}
 		<a href={{ screenUrl }}><img src={{ screenUrl }} alt=""></a>
 		{% endfor %}
 	</div>
+	{% endif %}
 	{% if page.results.first.ipadScreenshotUrls %}
 	<br>
 	<div class="ipad-large-screen-shot">

@@ -1,5 +1,5 @@
 ---
-description: 两个人同时打开此 app，就会合并整个通讯录。
+description: 两个人靠近同时打开此 app，就会合并整个通讯录。
 layout: post
 results:
 - artistId: 1105975213

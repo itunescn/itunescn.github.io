@@ -1,5 +1,5 @@
 ---
-description: 一句语录，你猜猜是希拉里说的还是特朗普说的？
+description: 一句“语录” ，你赞同还是反对？猜猜是希拉里说的还是特朗普说的？
 layout: post
 results:
 - primaryGenreName: Entertainment

@@ -1,5 +1,5 @@
 ---
-description: 将新闻或电影做成卡片式，便于提升逼格。注意，是在支持的 app 中，点击分享 -〉分享到 popchat -〉等待制作完成后再分享出去。
+description: 将新闻或电影做成卡片式，便于提升逼格。注意，是在此 app 支持的 app 中，点击分享 -〉分享到 popchat -〉等待卡片制作完成后再分享出去。
 layout: post
 results:
 - artistId: 1089340529

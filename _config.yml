@@ -3,7 +3,9 @@ description: "有质量的新应用"
 
 url: "https://www.itunescn.com"
 
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  
 paginate: 40
 
 markdown: kramdown

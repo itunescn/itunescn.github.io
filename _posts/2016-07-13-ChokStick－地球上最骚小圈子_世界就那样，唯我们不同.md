@@ -1,5 +1,5 @@
 ---
-description: 手工挑选过的八卦，这至少是吃原创的处女屎的。阅读类 app 大多都是第二三遍的 。。。
+description: 手工挑选过的八卦，这至少是吃原创的处女屎的。阅读类 app 大多都是吃第二、三轮的 。。。
 layout: post
 results:
 - primaryGenreName: News

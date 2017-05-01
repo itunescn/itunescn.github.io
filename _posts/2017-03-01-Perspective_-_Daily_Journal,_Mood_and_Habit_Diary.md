@@ -1,5 +1,5 @@
 ---
-description: 把你一辈子的日历显示在一个页面上。
+description: 把你这辈子的日子显示在一个页面上。
 layout: post
 results:
 - artistId: 1186753096
